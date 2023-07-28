@@ -30,10 +30,15 @@ int main()
         // Display Contacts
         else if (check == 2)
         {
+              int check2 = 0;
             for (int i = 0; i < 100; i++)
             {
                 if (name[i] != "\0")
                     cout << "\t\t\t\t\t Name :" << name[i] << "         Phone:" << no[i] << endl;
+                       check2++;
+            }
+            if(check2==0){
+                 cout << "\t\t\t\t\t";
             }
         }
         // Search By Number
@@ -101,11 +106,12 @@ int main()
                     check2++;
                     cout << "\t\t\t\t\t Updated Successfully : ";
                 }
+            
+            }
                 if (check2 == 0)
                 {
                     cout << "\t\t\t\t\t This name is not found in your contact list\n";
                 }
-            }
         }
         // Delete
         else if (check == 6)
