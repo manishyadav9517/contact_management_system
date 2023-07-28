@@ -168,11 +168,11 @@ int menu()
     cout << "\t\t\t\t\t\t|             [2]   Display All Contacts                    |\n";
     cout << "\t\t\t\t\t\t|             [3]   Search By Number                        |\n";
     cout << "\t\t\t\t\t\t|             [4]   Search By Name                          |\n";
-    cout << "\t\t\t\t\t\t|             [5]   Add Contacts                            |\n";
-    cout << "\t\t\t\t\t\t|             [6]   Update                                  |\n";
-    cout << "\t\t\t\t\t\t|             [7]   Delete                                  |\n";
-    cout << "\t\t\t\t\t\t|             [8]   Delete All                              |\n";
-    cout << "\t\t\t\t\t\t|             [1]   Number Of Contacts                      |\n";
+    cout << "\t\t\t\t\t\t|             [5]   Update                                  |\n";
+    cout << "\t\t\t\t\t\t|             [6]   Delete                                  |\n";
+    cout << "\t\t\t\t\t\t|             [7]   Delete All                              |\n";
+    cout << "\t\t\t\t\t\t|             [8]   Number of Contacts                      |\n";
+
     cout << "\t\t\t\t\t\t|                                                           |\n";
     cout << "\t\t\t\t\t\t- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n";
     cout << "\t\t\t\t\t\t|                [0]  Exite                                 |\n";
